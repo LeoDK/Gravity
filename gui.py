@@ -9,9 +9,9 @@ from math import cos, sin
 class ColoredParticle (Particle):
 
     def __init__(self, pos, mass=Particle.DEF_MASS, 
-        f=Particle.DEF_FORCE, 
-        v=Particle.DEF_V, 
-        a=Particle.DEF_A): 
+                f=Particle.DEF_FORCE, 
+                v=Particle.DEF_V, 
+                a=Particle.DEF_A): 
 
         super(ColoredParticle, self).__init__(pos, mass=mass, f=f, v=v, a=a)
         self.update( () )
